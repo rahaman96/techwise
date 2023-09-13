@@ -14,67 +14,70 @@
 </head>
 
 <body>
-    <nav class="navbar">
-        <div class="mainSection">
-            <div class="container">
-                <div id="logo">
-                    <img src="img/Logo.png" alt="buidwise">
-                </div>
-                <ul class="nav-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Project</a></li>
-                </ul>
-                <div class="burger-menu">&#9776;</div>
+    
+    <div class="main">
+        <div class="navbar">
+            <div class="logo">
+                <img src="img/Logo.png" alt="Logo">
             </div>
-            <!-- Landing Section Start -->
-            <div class="landingMain">
-                <div class="master">
-                    <img src="img/Masters of Consistency and Quality..png" alt="">
-                    <p class="para">We are thrilled to introduce our construction company, which has been providing
-                        top-quality construction services for many years.</p>
-                    <div class="btn">
-                        <button class="exploreBtn">Explore</button>
-                        <button class="contactBtn">
-                            <p class="contactButton">Contact Us</p>
-                        </button>
-                    </div>
-                    <div class="vectorImg">
-                        <img src="img/Vector 11.png" alt="">
-                    </div>
-                    <div class="count">
-                        <div class="project">
-                            <h5 class="projectHeader">25356</h5>
-                            <div class="projectImg">
-                                <img src="img/Ellipse 739.png" alt="">
-                            </div>
-                            <p class="projectText">Projects Done</p>
-                        </div>
-
-                        <div class="building">
-                            <h5 class="buildHeader">15,200</h5>
-                            <div class="buildImg">
-                                <img src="img/Ellipse 740.svg" alt="">
-                            </div>
-                            <p class="projectText">Buildings Done</p>
-                        </div>
-                        <div class="Total">
-                            <h5 class="buildHeader">350+</h5>
-                            <div class="Employees">
-                                <img src="img/Ellipse 741.png" alt="">
-                            </div>
-                            <p class="projectText">Total Employees</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="home">
-                    <img src="img/hernan.png" alt="">
-                </div>
-            </div>
-            <!-- Landing Section End -->
+            <div></div>
+            <div class="menu-icon">&#9776;</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Project</a></li>
+            </ul>
         </div>
-    </nav>
+        <div class="landSection">
+            <div class="MastersImgOne">
+                <img src="img/Masters of Consistency and Quality..png" alt="">
+                <p class="para">We are thrilled to introduce our construction company, which has been providing
+                    top-quality construction services for many years.
+                </p>
+                <div class="btn">
+                    <button class="exploreBtn">Explore</button>
+                    <button class="contactBtn">
+                        <p class="contactButton">Contact Us</p>
+                    </button>
+                </div>
+                <div class="vectorImg">
+                    <img src="img/Vector 11.png" alt="">
+                </div>
+                <div class="count">
+                    <div class="project">
+                        <h5 class="projectHeader">25356</h5>
+                        <div class="projectImg">
+                            <img src="img/Ellipse 739.png" alt="">
+                        </div>
+                        <p class="projectText">Projects Done</p>
+                    </div>
+
+
+                    <div class="building">
+                        <h5 class="projectHeader">15,200</h5>
+                        <div class="projectImg">
+                            <img src="img/Ellipse 740.svg" alt="">
+                        </div>
+                        <p class="projectText">Buildings Done</p>
+                    </div>
+
+                    <div class="Total">
+                        <h5 class="TotalHeader">350+</h5>
+                        <div class="TotalImg">
+                            <img src="img/Ellipse 741.png" alt="">
+                        </div>
+                        <p class="TotalText">Total Employees</p>
+                    </div>
+                </div>
+            </div>
+            <div class="MastersImgTwo">
+                <img src="img/hernan.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
 
     <div class="conten">
         <div class="company">
@@ -364,9 +367,14 @@
             </div>
         </div>
     </footer>
-    </div>
 
-    <script src="script.js"></script>
+    </div>
+    <script>
+        document.querySelector('.menu-icon').addEventListener('click', function () {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+    <!-- <script src="script.js"></script> -->
 </body>
 
 </html>
