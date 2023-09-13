@@ -2,31 +2,15 @@
 * {
     margin: 0;
     padding: 0;
-    /* overflow-x: hidden; */
 }
-
-/* css variables */
-/* :root {
-    --navbar-height: 59px;
-} */
 
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-
-/* navbar start */
-
-/* .navbar {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-} */
-
 .mainSection {
     position: relative;
 }
-
 .container {
     display: flex;
     justify-content: space-between;
@@ -35,26 +19,19 @@ body {
     top: 3%;
     margin-left: 20px;
 }
-
 .logo {
     font-size: 1.5em;
-
-
 }
-
-
 .nav-links {
     list-style: none;
     display: flex;
     margin-left: 40rem;
     justify-content: space-between;
-
 }
 
 .nav-links li {
     margin: 0 30px;
 }
-
 .nav-links a {
     text-decoration: none;
     color: #313131;
@@ -85,7 +62,6 @@ body {
     display: flex;
     justify-content: space-between;
 }
-
 .master {
     margin-top: 6%;
     margin-left: 6%;
@@ -101,19 +77,16 @@ body {
     width: 445px;
     margin-top: 10px;
 }
-
 .btn {
     margin-top: 40px;
     position: relative;
 }
-
 .exploreBtn {
     width: 214px;
     height: 64px;
     flex-shrink: 0;
     border-radius: 40px 5px;
     background: #18A7B9;
-    /* box-shadow: 0px 1.85185px 3.14815px 0px rgba(24, 167, 185, 0.02), 0px 8.14815px 6.51852px 0px rgba(24, 167, 185, 0.04), 0px 20px 13px 0px rgba(24, 167, 185, 0.05), 0px 38.51852px 25.48148px 0px rgba(24, 167, 185, 0.06), 0px 64.81481px 46.85185px 0px rgba(24, 167, 185, 0.08); */
     color: #FFF;
     text-align: center;
     font-family: Poppins;
@@ -121,10 +94,8 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
-    /* 117.647% */
     letter-spacing: -0.5px;
 }
-
 .contactBtn {
     width: 214px;
     height: 64px;
@@ -143,14 +114,11 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
-    /* 117.647% */
     letter-spacing: -0.5px;
 }
-
 .contactBtn:hover {
     background: none;
 }
-
 .vectorImg {
     position: absolute;
     margin-top: -10px;
@@ -158,21 +126,16 @@ body {
     width: 532px;
     z-index: -1;
     opacity: 1;
-    /* height: 608px; */
-    /* flex-shrink: 0; */
 }
 
 .count {
     margin-top: 25%;
     display: flex;
     justify-content: space-between;
-
 }
-
 .project {
     position: relative;
 }
-
 .projectHeader {
     color: #313131;
     text-align: center;
@@ -180,26 +143,20 @@ body {
     font-size: 40px;
     font-style: normal;
     font-weight: 500;
-
-
 }
-
 .projectImg img {
     width: 30px;
     flex-shrink: 0;
 }
-
 .projectImg {
     position: absolute;
     top: -1%;
     opacity: 1;
     z-index: -1;
 }
-
 .building {
     margin-left: 40px;
 }
-
 .buildHeader {
     color: #313131;
     text-align: center;
@@ -207,18 +164,14 @@ body {
     font-size: 40px;
     font-style: normal;
     font-weight: 500;
-
 }
-
 .buildImg {
     position: absolute;
     bottom: 179px;
     opacity: 1;
     z-index: -1;
     left: 276px;
-
 }
-
 .Employees {
     position: absolute;
     bottom: 179px;
@@ -226,7 +179,6 @@ body {
     z-index: -1;
     left: 456px;
 }
-
 .projectText {
     color: #6B6B6B;
     text-align: center;
@@ -234,9 +186,7 @@ body {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-
 }
-
 .BuildingsText {
     color: #6B6B6B;
     text-align: center;
@@ -244,7 +194,6 @@ body {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-
 }
 
 .EmployeeText {
@@ -271,9 +220,7 @@ body {
     margin-left: 6%;
     padding-left: 50px;
     padding-right: 50px;
-
 }
-
 /* <!-- company section end --> */
 
 /* <!-- choose us section start --> */
@@ -282,13 +229,10 @@ body {
     justify-content: space-between;
     margin-top: 10%;
     margin-left: 6%;
-
 }
-
 .chosePara {
     width: 544px;
     padding: 20px;
-
 }
 
 .chooseText {
@@ -299,7 +243,6 @@ body {
     font-weight: 400;
     line-height: 28px;
 }
-
 .choseBtn {
     width: 214px;
     height: 64px;
@@ -314,16 +257,12 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
-    /* 117.647% */
     letter-spacing: -0.5px;
     margin-top: 10%;
 }
-
 .chooseImg {
     position: relative;
 }
-
-
 .construction {
     position: absolute;
     width: 521px;
@@ -335,18 +274,15 @@ body {
     line-height: 120%;
     left: -65%;
     top: 25%;
-
 }
 
 /* <!-- choose us section end --> */
-
 
 /* <!--after choose us section start --> */
 .middleSec {
     display: flex;
     margin-top: 6%;
 }
-
 .leftSide {
     margin-left: 6%;
 }
@@ -354,26 +290,19 @@ body {
 .rightSideMain {
     margin-left: 5%;
     margin-top: 12%;
-
 }
-
 .rightSide {
     display: flex;
     margin-top: 12%;
-
-
 }
-
 .rightImg img {
     width: 76px;
     height: 76px;
     flex-shrink: 0;
 }
-
 .rightImg {
     position: relative;
 }
-
 .TextOne {
     position: absolute;
     top: -18%;
@@ -384,7 +313,6 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: 100%;
-    /* 72px */
 }
 
 .rightText {
@@ -397,7 +325,6 @@ body {
     font-weight: 400;
     line-height: 28px;
 }
-
 .expText {
     color: #6B6B6B;
     font-family: Poppins;
@@ -407,52 +334,29 @@ body {
     line-height: 28px;
 }
 
-
-
-
-
-
-
-
-/* .midImg {
-    position: relative;
-} */
-
 .building {
     z-index: -1;
 }
-
 .reactimage {
     position: absolute;
     left: -13%;
     bottom: -3%;
     z-index: -1;
-
 }
-
 .QualitySection {
     margin-top: 12%;
     margin-left: 5%;
 }
-
 .midText {
     display: flex;
 }
-
 .react {
     position: relative;
-
 }
-
 .react img {
     width: 102px;
     height: 102px;
 }
-
-/* .o1Img{
-    position: absolute;
-    top: -20%;
-} */
 .textOne {
     color: #313131;
     font-family: Poppins;
@@ -463,9 +367,7 @@ body {
     position: absolute;
     top: -20%;
     left: 60%;
-
 }
-
 .Quality {
     color: #313131;
     font-family: Poppins;
@@ -489,7 +391,6 @@ body {
     top: 144rem;
     left: 53rem;
 }
-
 .Experience {
     width: 460px;
     margin-left: 15%;
@@ -500,7 +401,6 @@ body {
     font-weight: 400;
     line-height: 28px;
 }
-
 .experienceText {
     color: #6B6B6B;
     font-family: Poppins;
@@ -517,12 +417,10 @@ body {
     margin-left: 6%;
     margin-top: 6%;
 }
-
 .best {
     align-items: center;
     text-align: center;
 }
-
 .engHeader {
     color: #313131;
     font-family: Poppins;
@@ -530,7 +428,6 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: 56px;
-
 }
 
 .engText {
@@ -548,17 +445,13 @@ body {
     line-height: 28px;
     margin-top: 2%;
 }
-
 .card {
     display: flex;
     justify-content: space-between;
     margin-top: 4%;
     margin-right: 5%;
     margin-bottom: 5%;
-
-
 }
-
 .cardOne {
     width: 362px;
     height: 435px;
@@ -567,30 +460,24 @@ body {
     background: #FFF;
     box-shadow: 0px 20px 50px 0px rgba(198, 217, 225, 0.50);
 }
-
 .star {
     display: flex;
     justify-content: space-between;
     padding: 20px;
 }
-
 .avatar {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-
 .avatar img {
     border-radius: 100%;
 }
-
 .cardLast {
     align-items: center;
     justify-content: center;
     text-align: center;
     margin-top: 4%;
-
 }
 
 .name {
@@ -611,12 +498,9 @@ body {
     font-style: normal;
     font-weight: 500;
     line-height: 100%;
-
     letter-spacing: 1px;
     margin-top: 2%;
-
 }
-
 .contact {
     color: #6B6B6B;
     text-align: center;
@@ -626,9 +510,7 @@ body {
     font-weight: 500;
     line-height: normal;
     margin-top: 7%;
-
 }
-
 .email {
     color: #18A7B9;
     text-align: center;
@@ -638,11 +520,9 @@ body {
     font-weight: 500;
     line-height: normal;
     margin-top: 1%;
-
 }
 
 /* <!-- Our Best Engineers start --> */
-
 
 /*<!-- Testimonial Section Start -->*/
 .testimonial {
@@ -650,13 +530,11 @@ body {
     width: 1349px;
     height: 939px;
 }
-
 .testHead {
     margin-bottom: 10%;
 }
 
 .testimonialHeader {
-    /* margin-bottom: 5%; */
     padding-top: 5%;
     text-align: center;
     color: #FAFAFA;
@@ -666,24 +544,11 @@ body {
     font-weight: 500;
     line-height: 76px;
 }
-
-
 .innerImg {
     display: flex;
     justify-content: center;
-    /* align-items: center; */
-    /* text-align: center; */
     margin-top: 10%;
-
 }
-
-
-
-/* img,
-.gap {
-    margin: 0 6px;
-} */
-
 .gap {
     width: 100px;
 }
@@ -723,16 +588,12 @@ body {
     line-height: 28px;
 }
 
-
-
 /*<!-- Testimonial Section End -->*/
 
 /* contact us start */
-
 .contactForm {
     margin-top: 7%;
 }
-
 .contactMain {
     align-items: center;
     text-align: center;
@@ -747,12 +608,8 @@ body {
     font-weight: 600;
     line-height: 56px;
     margin-bottom: 2%;
-
-    /* 103.704% */
 }
-
 .contactPara {
-
     width: 672px;
     color: #6B6B6B;
     text-align: center;
@@ -762,50 +619,25 @@ body {
     font-weight: 400;
     line-height: 28px;
     margin: 0 auto;
-
-
 }
-
-
-
-
 .contactPage {
     margin-left: 6%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 1200px;
-    width: 100%;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
 }
-
-.contact-form,
-.map {
-    flex: 1;
-}
-
-.contact-form {
-    margin-right: 20px;
-    max-width: 600px;
-}
-
-.contact-form h1 {
-    text-align: center;
+.Contactsection {
+    flex: 0 0 48%;
     margin-bottom: 20px;
 }
-
 .form-group {
     margin-bottom: 20px;
 }
-
 .form-group label {
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
 }
-
 .form-group input,
 .form-group textarea {
     width: 100%;
@@ -814,7 +646,6 @@ body {
     border-radius: 4px;
     box-sizing: border-box;
 }
-
 .form-group textarea {
     resize: vertical;
 }
@@ -828,11 +659,9 @@ button {
     font-size: 16px;
     cursor: pointer;
 }
-
 button:hover {
     background-color: #0056b3;
 }
-
 .map iframe {
     width: 100%;
     height: 400px;
@@ -841,7 +670,6 @@ button:hover {
 }
 
 .contactUsBtn {
-    /* margin-left: -62%; */
     width: 214px;
     height: 64px;
     flex-shrink: 0;
@@ -855,9 +683,7 @@ button:hover {
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
-    /* 117.647% */
     letter-spacing: -0.5px;
-
 }
 
 
@@ -894,7 +720,6 @@ button:hover {
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
-    /* 140% */
 }
 
 .blogCard {
@@ -903,13 +728,11 @@ button:hover {
     height: 467px;
     overflow-y: scroll;
     margin-right: 10%;
-
 }
 
 .blogCard::-webkit-scrollbar {
     width: 2px;
     height: 13px;
-
 }
 
 .blogCard::-webkit-scrollbar-thumb {
@@ -922,14 +745,11 @@ button:hover {
 
 .blogCard::-webkit-scrollbar-track {
     background-color: #f0f0f0;
-
 }
 
 .blogcardTwo {
     margin-left: 4%;
 }
-
-
 
 /* blogcardOne start */
 .blogcardOne {
@@ -960,7 +780,6 @@ button:hover {
     font-weight: 400;
     line-height: normal;
     margin-bottom: 10%;
-
 }
 
 .readBtn {
@@ -1007,7 +826,6 @@ button:hover {
     font-weight: 700;
     line-height: normal;
     margin-bottom: 7%;
-
 }
 
 .cardTwoPara {
@@ -1038,7 +856,6 @@ button:hover {
 /* <!-- Latest Blog End -->  */
 
 /* Subscribe to our Newsletter start */
-
 .subscribeMain {
     margin-left: 6%;
     margin-top: 6%;
@@ -1053,7 +870,6 @@ button:hover {
     font-style: normal;
     font-weight: 500;
     line-height: 56px;
-    /* 103.704% */
     text-transform: capitalize;
     margin: 0 auto;
     margin-bottom: 3%;
@@ -1068,11 +884,8 @@ button:hover {
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
-    /* 140% */
     margin: 0 auto;
     margin-bottom: 3%;
-
-
 }
 
 .subscribeBtn {
@@ -1086,8 +899,6 @@ button:hover {
     align-items: center;
     justify-content: center;
 }
-
-
 
 .containerBtn {
     text-align: center;
@@ -1128,10 +939,7 @@ button:hover {
     flex-shrink: 0;
 }
 
-
-
 /* Subscribe to our Newsletter End */
-
 
 /* footer start */
 footer {
@@ -1145,7 +953,6 @@ footer {
 .section {
     color: #313131;
     font-family: Poppins;
-    /* font-size: 18px; */
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -1160,8 +967,6 @@ footer {
     font-weight: 400;
     line-height: 28px;
     margin-top: 14%;
-
-    /* 175% */
 }
 
 .socialIcon {
@@ -1173,7 +978,6 @@ footer {
     font-size: 16px;
     margin-bottom: 14%;
 }
-
 
 .sectionPara {
     margin-bottom: 10%;
@@ -1192,10 +996,7 @@ footer {
     flex-shrink: 0;
     border-radius: 5px;
     background: #F3F3F3;
-
-
 }
-
 
 .input-field {
     outline: none;
@@ -1210,7 +1011,6 @@ footer {
     margin-top: 2%;
     border: 2px solid #18A7B9;
     border-radius: 50%;
-    /* padding: 5px 5px; */
     width: 25px;
     height: 25px;
     padding-left: 3px;
@@ -1220,13 +1020,13 @@ footer {
 
 .arrow-button {
     color: #18A7B9;
-    /* margin-top: 4%; */
-
 }
+
+
+
 
 @media screen and (max-width: 768px) {
     * {
-
         overflow-x: hidden;
     }
 
@@ -1282,7 +1082,6 @@ footer {
     }
 
     .para {
-
         font-size: 18px;
         width: auto;
         margin-top: 10px;
@@ -1292,9 +1091,7 @@ footer {
         display: none;
     }
 
-
     .count {
-        /* flex-wrap: wrap; */
         margin-top: 10%;
         margin-bottom: 10%;
         margin-right: 12px;
@@ -1311,7 +1108,6 @@ footer {
 
     .projectHeader {
         font-size: 18px;
-
     }
 
     .buildHeader {
@@ -1322,21 +1118,15 @@ footer {
         font-size: 12px;
     }
 
-
     /* <!-- company section start --> */
     .company {
-        /* flex-wrap: wrap; */
         background: none;
         width: auto;
-
-        /* width: 1100px;
-        height: 180px; */
         height: auto;
         margin-top: 5%;
         margin-left: 0;
         padding-left: 4px;
         padding-right: 4px;
-
     }
 
     .chase img {
@@ -1363,13 +1153,10 @@ footer {
         flex-wrap: wrap;
         margin-top: 0;
         margin-left: 0;
-
     }
 
     .chosePara {
         width: auto;
-        /* padding: 20px; */
-
     }
 
     .chooseText {
@@ -1380,29 +1167,19 @@ footer {
         box-shadow: none;
     }
 
-
     .chooseImg img {
         width: 0%;
     }
-
-    /* .chooseImg {
-    position: relative;
-    margin-top: 5%;
-} */
-
 
     .construction {
         width: auto;
         font-size: 13px;
         left: 3%;
         top: 25%;
-
     }
 
     /* <!-- choose us section end --> */
 
-
-    /* <!--after choose us section start --> */
 
     /* <!--after choose us section start --> */
     .middleSec {
@@ -1417,17 +1194,12 @@ footer {
     .rightImg img {
         width: 40px;
         height: 40px;
-
     }
-
-
 
     .TextOne {
         top: -2%;
         left: 50%;
         font-size: 20px;
-
-
     }
 
     .rightText {
@@ -1441,7 +1213,6 @@ footer {
 
     /* <!--after choose us section end  --> */
 
-
     /* <!-- Our Best Engineers start --> */
     .engineer {
         margin-left: 6%;
@@ -1454,9 +1225,7 @@ footer {
     }
 
     .engHeader {
-
         font-size: 24px;
-
     }
 
     .engText {
@@ -1474,14 +1243,11 @@ footer {
     }
 
     .cardOne {
-
         margin: 0 auto;
         margin-top: 4%;
-
     }
 
     .star {
-
         margin-right: 20px;
     }
 
@@ -1489,7 +1255,6 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-
     }
 
     .avatar img {
@@ -1501,7 +1266,6 @@ footer {
         justify-content: center;
         text-align: center;
         margin-top: 4%;
-
     }
 
     .name {
@@ -1522,10 +1286,8 @@ footer {
         font-style: normal;
         font-weight: 500;
         line-height: 100%;
-
         letter-spacing: 1px;
         margin-top: 2%;
-
     }
 
     .contact {
@@ -1537,7 +1299,6 @@ footer {
         font-weight: 500;
         line-height: normal;
         margin-top: 7%;
-
     }
 
     .email {
@@ -1549,13 +1310,9 @@ footer {
         font-weight: 500;
         line-height: normal;
         margin-top: 1%;
-
     }
 
     /* <!-- Our Best Engineers start --> */
-
-
-
 
     /*<!-- Testimonial Section Start -->*/
     .testimonial {
@@ -1568,34 +1325,19 @@ footer {
     }
 
     .testimonialHeader {
-        /* margin-bottom: 5%; */
         padding-top: 5%;
         font-size: 24px;
-
     }
-
 
     .innerImg {
         flex-wrap: wrap;
-        /* margin-top: 10%; */
-        /* justify-content:n; */
-        /* justify-content:start; */
         margin: 0 auto;
         z-index: -1;
-
     }
 
     .leftImg Img {
         width: auto;
-
-
     }
-
-    /* 
-    img,
-    .gap {
-        padding-top: 5%;
-    } */
 
     .gap {
         width: 0px;
@@ -1603,13 +1345,6 @@ footer {
 
     }
 
-    /* .leftImg {
-    position: relative;
-} */
-
-    /* .imgOne {
-    position: relative;
-} */
     .double img {
         height: 22px;
         z-index: 1;
@@ -1630,14 +1365,10 @@ footer {
     }
 
     .leftText {
-
         top: 18%;
         left: 11%;
         font-size: 14px;
-
     }
-
-
 
     /*<!-- Testimonial Section End -->*/
 
@@ -1656,110 +1387,34 @@ footer {
     .contactPara {
         width: auto;
         font-size: 15px;
-
-    }
-
-
-
-
-    .contactPage {
-        flex-wrap: wrap;
-        /* margin-left: 6%; */
-
-        justify-content: start;
-        /* max-width: 200px; */
-        width: auto;
-
-    }
-
-    .contact-form,
-    .map {
-        flex: 1;
-    }
-
-    .contact-form {
-        margin-right: 20px;
-        max-width: 600px;
-    }
-
-    .contact-form h1 {
-        text-align: center;
-        margin-bottom: 20px;
-    }
-
-    .form-group {
-        margin-bottom: 20px;
-    }
-
-    .form-group label {
-        flex-wrap: wrap;
-        font-weight: bold;
-        margin-bottom: 5px;
-    }
-
-    .form-group input,
-    .form-group textarea {
-        width: 100%;
-        padding: 8px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        box-sizing: border-box;
-    }
-
-    .form-group textarea {
-        resize: vertical;
-    }
-
-    button {
-        background-color: #007bff;
-        color: #fff;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 4px;
-        font-size: 16px;
-        cursor: pointer;
-    }
-
-    button:hover {
-        background-color: #0056b3;
-    }
-
-    .map iframe {
-        width: auto;
     }
 
     .contactUsBtn {
         width: auto;
         height: 64px;
-
         font-size: 14px;
-
-
     }
 
+    .Contactsection {
+        flex: 0 4 100%;
+        margin-right: 14px;
+    }
 
     /* contact us end */
 
-
-
     /* <!-- Latest Blog Start --> */
-    .blogMain {}
-
     .blogHeader {
         text-align: center;
     }
 
     .latest {
-
         font-size: 24px;
-
     }
 
     .blogPara {
         width: auto;
         text-align: left;
         font-size: 14px;
-
     }
 
     .blogCard {
@@ -1770,13 +1425,11 @@ footer {
 
     .blogcardOne {
         width: auto;
-
     }
 
     .blogcardOne img {
         height: 300px;
         margin: 0 auto;
-
     }
 
     .blogCard {
@@ -1785,29 +1438,20 @@ footer {
         height: 550px;
         overflow-y: scroll;
         margin-right: 10%;
-
     }
 
 
     .blogCard::-webkit-scrollbar {
         width: 0px;
         height: 0px;
-
     }
 
     .blogCard::-webkit-scrollbar-thumb {
         width: 0px;
         height: 0px;
-
     }
 
-
-
-
-
-    /* blogcardOne start */
-
-
+    /* blocardOne start */
     .blogContent {
         top: 32%;
         height: auto;
@@ -1816,16 +1460,12 @@ footer {
     }
 
     .bloHeader {
-
         font-size: 17px;
-
         margin-bottom: 7%;
     }
 
     .bloPara {
         font-size: 12px;
-
-
     }
 
     .readBtn {
@@ -1863,13 +1503,11 @@ footer {
     .cardTwoPara {
         font-size: 14px;
         padding-left: 15px;
-
     }
 
     .readBtnTwo {
         width: auto;
         height: auto;
-
     }
 
     .readBtnTwo:hover {
@@ -1877,8 +1515,8 @@ footer {
     }
 
     /* <!-- Latest Blog End -->  */
-    /* Subscribe to our Newsletter start */
 
+    /* Subscribe to our Newsletter start */
     .subscribeMain {
         margin-left: 6%;
         margin-top: 6%;
@@ -1891,18 +1529,12 @@ footer {
 
     .subPara {
         width: auto;
-
         font-size: 14px;
-
-
-
     }
 
     .containerBtn {
-
         width: 180px;
         height: 56px;
-
     }
 
     .subscribeBtn {
@@ -1910,33 +1542,22 @@ footer {
         height: auto;
     }
 
-
     .centered-button {
-
         font-size: 14px;
-
     }
 
     /* Subscribe to our Newsletter end */
 
     /* footer start */
-
     footer {
         flex-wrap: wrap;
         margin-top: 8%;
         margin-left: 0;
     }
 
-    .buildwiseImg{
+    .buildwiseImg {
         width: 40%;
     }
-    /* .section {
-        color: #313131;
-        font-family: Poppins;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-    } */
 
     .buildwise p {
         width: 182px;
@@ -1955,7 +1576,6 @@ footer {
         margin-bottom: 4%;
     }
 
-
     .sectionPara {
         margin-bottom: 5%;
         font-size: 14px;
@@ -1968,14 +1588,12 @@ footer {
         margin-left: 10px;
     }
 
-
     .input-field {
         outline: none;
         border: none;
         background: #F3F3F3;
         border-radius: 5px;
         margin-left: 15px;
-
     }
 
     .arrowIcon {
@@ -1984,10 +1602,10 @@ footer {
 
     .arrow-button {
         color: #18A7B9;
-
-
     }
 
     /* footer end */
-
+    .contactPage {
+        flex-wrap: wrap;
+    }
 }
